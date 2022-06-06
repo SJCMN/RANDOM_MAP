@@ -53,7 +53,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `SJCMN`, `RANDOM_MAP`, `@scmn`, `sam-clavette-2896609/`, `sam.clavette@gmail.com`, `Random Map`, `Generates a random business name with a random address and displays on map.`
+This project was built while working on Udemy's Modern Angular Bootcamp.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -61,14 +61,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
 * [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Vercel](https://vercel.com/)
+* [Bulma](https://bulma.io/)
+* [Faker.js](https://github.com/faker-js/faker)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -122,8 +118,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/SJCMN/RANDOM_MAP/issues) for a full list of proposed features (and known issues).
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -139,7 +133,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@@scmn](https://twitter.com/@scmn) - sam.clavette@gmail.com
+Sam Clavette - [@scmn](https://twitter.com/@scmn) - sam.clavette@gmail.com
 
 Project Link: [https://github.com/SJCMN/RANDOM_MAP](https://github.com/SJCMN/RANDOM_MAP)
 
