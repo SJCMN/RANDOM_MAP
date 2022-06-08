@@ -21756,11 +21756,6 @@ var script1 = document.createElement('script');
 script1.src = "https://maps.googleapis.com/maps/api/js?key=".concat(API_KEY);
 dotenv_1.default.config();
 document.body.append(script1);
-console.log(script1, script1.src);
-console.log("AIzaSyAicIEzYLmfb2edxyc7rctJf7u32F9GBpY");
-console.log(dotenv_1.default);
-console.log(user);
-console.log(company);
 setTimeout(function () {
   var map = document.querySelector('#map');
   new google.maps.Map(map, {
