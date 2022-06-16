@@ -1,5 +1,6 @@
 import { User } from "./user";
 import { Company } from "./Company";
+import { markAsUntransferable } from "worker_threads";
 
 interface Mappable {
   location: {
@@ -25,13 +26,23 @@ export class CustomMap {
   }
 
   addMarker(mappable: Mappable): void {
-    new google.maps.Marker({
+    const marker = new google.maps.Marker({
       map: this.googleMap,
       position: {
         lat: mappable.location.lat,
         lng: mappable.location.lng
       }
     });
+
+    marker.addListener('click', () => {
+      const infoWindow = new google.maps.InfoWindow({
+        content: 'Word to your motha'
+      })
+      infoWindow.open(this.googleMap, marker);
+      console.log('marker')
+    })
+
+    
   }
   
 }
