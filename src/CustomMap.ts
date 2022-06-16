@@ -1,3 +1,6 @@
+import { User } from "./user";
+import { Company } from "./Company";
+
 export class CustomMap {
   private googleMap: google.maps.Map;
 
@@ -10,6 +13,16 @@ export class CustomMap {
         lng: 0,
       },
       backgroundColor: "#074650",
+    });
+  }
+
+  addMarker(mappable: User | Company): void {
+    new google.maps.Marker({
+      map: this.googleMap,
+      position: {
+        lat: mappable.location.lat,
+        lng: mappable.location.lng,
+      },
     });
   }
 }
